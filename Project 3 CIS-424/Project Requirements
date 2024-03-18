@@ -1,0 +1,8 @@
+These are the requirements for this project:
+
+Create a Web Page with 3 Different Images Done In 3 Different Ways (Ways Listed Below)
+
+One with Picture Tag and .webp file with .jpg or .png as a fallback
+Two other Images Done with IMG tag, but different kinds stylings applied to each one (changing width does not count as styling)
+One Done with Inline Styling
+One Done with CSS Styling
