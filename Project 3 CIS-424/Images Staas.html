@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images Depicted in Different Ways</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Image: with webp, .png or .jpg as fallback -->
+    <picture>
+        <source srcset="Eagles Logo.webp" type="image/webp">
+        <img src="https://i.pinimg.com/736x/c3/8b/d3/c38bd3aee4bb6d0c501f080a67b88a1a.jpg" alt="Image" width="300">
+    </picture>
+
+    <!-- Image: img with inline styling -->
+    <img src="Phillies Logo.jpg" alt="Image 2" style="border: 1px solid #ccc; border-radius: 50%; width: 300px; height: 300px;">
+
+    <!-- Image: img tag with CSS styling -->
+    <img src="Sixers logo.png" alt="Image 3" class="styled-image">
+</body>
+</html>

@@ -1,0 +1,109 @@
+/*CSS Stylesheet Staas Project 5*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 600px;body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+    /*The prompt said variable object size so I just made the mountains fill and scale to the size of the browser window. */
+    margin: 20px auto;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  @media (min-width: 600px) {
+    img {
+      width: 80%;
+      margin: 20px auto;
+    }
+  
+    p {
+      font-size: 24px;
+      color: #009688;
+    }
+  
+    .art {
+      display: none;
+    }
+  }
+  
+  .art {
+    width: 100px;
+    height: 100px;
+    background-color: #f44336;
+    border-radius: 50%;
+    margin: 20px auto;
+  }
+  
+  @media (min-width: 600px) {
+    .art {
+      background-color: #2196f3;
+      width: 200px;
+      height: 200px;
+    }
+  }
+  
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  @media (min-width: 600px) {
+    img {
+      width: 80%;
+      margin: 20px auto;
+    }
+  
+    p {
+      font-size: 24px;
+      color: #009688;
+    }
+  
+    .art {
+      display: none;
+    }
+  }
+  
+  .art {
+    width: 100px;
+    height: 100px;
+    background-color: #f44336;
+    border-radius: 50%;
+    margin: 20px auto;
+  }
